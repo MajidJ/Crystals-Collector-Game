@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystals Collector</title>
     <!-- Links -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
@@ -42,7 +46,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading"><h2>Target Number</h2></div>
                             <div class="panel-body">
-                                <p class="target-num text-center">15</p>
+                                <p class="target-num text-center"></p>
                             </div>
                         </div>
                     </div>
@@ -50,7 +54,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading"><h2>Your Number</h2></div>
                             <div class="panel-body">
-                                <p class="users-num text-center">5</p>
+                                <p class="users-num text-center"></p>
                             </div>
                         </div>
                     </div>
@@ -59,10 +63,10 @@
                     <div class="col-md-12 image-section text-center">
                         <div class="panel panel-default">
                             <div class="panel-body">
-                                <img src="http://www.placepuppy.net/750/750" alt="" id="crystal-1" class="img-responsive col-md-3">
-                                <img src="http://www.placepuppy.net/750/750" alt="" id="crystal-2" class="img-responsive col-md-3">
-                                <img src="http://www.placepuppy.net/750/750" alt="" id="crystal-3" class="img-responsive col-md-3">
-                                <img src="http://www.placepuppy.net/750/750" alt="" id="crystal-4" class="img-responsive col-md-3">
+                                <img src="http://www.placepuppy.net/750/750" alt="image of crystal 1" id="crystal-1" value="1" class="img-responsive col-xs-6 col-md-3 crystal">
+                                <img src="http://www.placepuppy.net/750/750" alt="image of crystal 2" id="crystal-2" value="2" class="img-responsive col-xs-6 col-md-3 crystal">
+                                <img src="http://www.placepuppy.net/750/750" alt="image of crystal 3" id="crystal-3" value="3" class="img-responsive col-xs-6 col-md-3 crystal">
+                                <img src="http://www.placepuppy.net/750/750" alt="image of crystal 4" id="crystal-4" value="4" class="img-responsive col-xs-6 col-md-3 crystal">
                             </div>
                         </div>
                     </div>    
@@ -76,7 +80,7 @@
                                         <h3>Wins:</h3>
                                     </div>
                                     <div class="col-md-6 text-center">
-                                        <h3 class="wins">5</h3>
+                                        <h3 class="wins"></h3>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -84,7 +88,7 @@
                                         <h3>Losses:</h3>
                                     </div>
                                     <div class="col-md-6 text-center">
-                                        <h3 class="losses">5</h3>
+                                        <h3 class="losses"></h3>
                                     </div>
                                 </div>
                             </div>
@@ -93,12 +97,17 @@
                 </div>
             </div>
         </main>
-
-    </div>    
+    </div>
+    <footer class="page-footer font-small pt-4 mt-4">
+        <div class="footer-copyright py-3 text-center">
+            <div class="container-fluid">
+                © 2018 Copyright: Majid Jamaleldine
+            </div>
+        </div>
+    </footer>
+    <!-- scripts -->
+    <script src="assets/javascript/game.js"></script>
+</body>      
 </html>
 
 
-
-<div class="row">
-        
-    </div>
