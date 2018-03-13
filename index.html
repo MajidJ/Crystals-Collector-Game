@@ -10,12 +10,16 @@
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet/less" type="text/css" href="assets/styles/styles.less" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script></head>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.0.0/less.min.js" ></script>
+</head>
+
 <body>
     <!-- div.container>header>div.jumbotron>h1^^main>div.row>div.panel.panel-default.col-md-12>(div.panel-heading>h2)+div.panel-body>p^^^div.row>div.panel.panel-default.col-md-12>div.panel-body>(div.col-md-6>p.target-num)+div.col-md-6>(div.row>p.wins)+div.row>p.losses^^^^^div.row>col-md-3*4>img.crystal-img^^div.row>div.panel.panel-default.col-md-12>div.panel-body>p.users-num -->
     <div class="wrapper">
@@ -36,7 +40,11 @@
                                 <h2>Instructions</h2>
                             </div>
                             <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus neque ratione libero assumenda dolores eius, repellat voluptatem consequuntur beatae alias quisquam dolorem odit ab laudantium. Porro aspernatur odio eos mollitia.</p>
+                                <p>You will be given a random Target Number at the start of the game.</p>
+                                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to Your Number.</p>
+                                <p>You win the game by matching Your Number to the Target Number, you lose the game if Your Number goes above the Target Number.</p>
+                                <p>The value of each crystal is hidden from you until you click on it.</p>
+                                <p>Each time when the game starts, the game will change the values of each crystal.</p>
                             </div>
                         </div>
                     </div>    
@@ -63,10 +71,10 @@
                     <div class="col-md-12 image-section text-center">
                         <div class="panel panel-default">
                             <div class="panel-body">
-                                <img src="http://www.placepuppy.net/750/750" alt="image of crystal 1" id="crystal-1" value="1" class="img-responsive col-xs-6 col-md-3 crystal">
-                                <img src="http://www.placepuppy.net/750/750" alt="image of crystal 2" id="crystal-2" value="2" class="img-responsive col-xs-6 col-md-3 crystal">
-                                <img src="http://www.placepuppy.net/750/750" alt="image of crystal 3" id="crystal-3" value="3" class="img-responsive col-xs-6 col-md-3 crystal">
-                                <img src="http://www.placepuppy.net/750/750" alt="image of crystal 4" id="crystal-4" value="4" class="img-responsive col-xs-6 col-md-3 crystal">
+                                <img src="assets/images/crystal-y.svg" alt="image of crystal 1" id="crystal-1" value="1" class="img-responsive col-xs-6 col-md-3 crystal">
+                                <img src="assets/images/crystal-b.svg" alt="image of crystal 2" id="crystal-2" value="2" class="img-responsive col-xs-6 col-md-3 crystal">
+                                <img src="assets/images/crystal-r.svg" alt="image of crystal 3" id="crystal-3" value="3" class="img-responsive col-xs-6 col-md-3 crystal">
+                                <img src="assets/images/crystal-g.svg" alt="image of crystal 4" id="crystal-4" value="4" class="img-responsive col-xs-6 col-md-3 crystal">
                             </div>
                         </div>
                     </div>    
