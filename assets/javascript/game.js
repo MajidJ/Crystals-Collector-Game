@@ -25,7 +25,7 @@ const newGame = function() {
 const randomNumGen = function() {
     targetNum = Math.floor(Math.random() * 101) + 19;
     for (let i = 0; i < 4; i++) {
-        crystals[i] = Math.floor(Math.random() * 12);
+        crystals[i] = Math.floor(Math.random() * 12) + 1;
     }
 };
 
