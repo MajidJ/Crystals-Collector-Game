@@ -2,8 +2,72 @@
 @background-color: #eaeaea;
 @text-color: #5d5d5d;
 @text-font: helvetica, sans-serif;
+@blue: #419bff;
+@red: #ff4178;
+@yellow: #ffd032;
+@green: #00c6b3;
+@white: #ffffff;
 
 
 body {
     background-color: @background-color;
 }
+
+.jumbo-style {
+    text-align: center;
+    background-color: @white;
+}
+
+.target-num, .users-num {
+    font-size: 5em;
+    color: @text-color;
+}
+
+.panel-style {
+    border: white 0px;
+    .panel-heading {
+        background-color: @green;
+        color: @white;
+        text-align: center;
+    }
+}
+
+.instruct .panel-heading {
+    background-color: @blue;
+    color: @white;
+
+}
+
+p, li {
+    color: @text-color;
+    font-size: 1.2em;
+}
+
+
+
+.image-section img {
+    max-height: 200px;
+    padding: 20px;
+}
+
+.image-section img:hover {
+    cursor: pointer;
+}
+
+.win-group, 
+.loss-group {
+    color: @text-color;
+    h3 {
+        font-size: 3em;
+    }
+}
+
+// .crystal-title {
+//     max-width: 85px;
+//     position: relative;
+//     // margin: 0px auto;
+// }
+
+// .crystal-title-1 {
+//     position: 100px 100px;
+// }
