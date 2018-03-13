@@ -55,10 +55,10 @@ const gameLevel = function() {
         userNum = [];
         userNum[0] = reducedArray;
         $('.users-num').text(userNum[0]);
-        // Check for a win or loss. Max wins and losses before game terminates is 10 times, respectively.
+        // Check for a win or loss. Max wins and losses before game terminates is 9 times, respectively.
         if (userNum[0] === targetNum) {
             wins++;
-            if (wins > 10) {
+            if (wins > 9) {
                 $('.crystal').off('click');
                 finalWin();
                 return;
@@ -67,7 +67,7 @@ const gameLevel = function() {
             newGame();
         } else if (userNum[0] > targetNum) {
             losses++;
-            if (losses > 10) {
+            if (losses > 9) {
                 $('.crystal').off('click');
                 gameOver();
                 return;

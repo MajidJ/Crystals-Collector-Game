@@ -11,13 +11,13 @@
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet/less" type="text/css" href="assets/styles/styles.less" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.0.0/less.min.js" ></script>
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.0.0/less.min.js" ></script> -->
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
@@ -25,7 +25,21 @@
     <div class="wrapper">
         <header>
             <div class="container">
-                <div class="jumbotron">
+                <div class="jumbotron jumbo-style">
+                    <img src="assets/images/crystal-b.svg" alt="image of crystal 1" class="img-responsive col-xs-1 col-md-1 crystal-title crystal-title-1">
+                    <img src="assets/images/crystal-r.svg" alt="image of crystal 2" class="img-responsive col-xs-1 col-md-1 crystal-title crystal-title-2">
+                    <img src="assets/images/crystal-y.svg" alt="image of crystal 3" class="img-responsive col-xs-1 col-md-1 crystal-title crystal-title-3">
+                    <img src="assets/images/crystal-g.svg" alt="image of crystal 4" class="img-responsive col-xs-1 col-md-1 crystal-title crystal-title-4">
+                    <img src="assets/images/crystal-b.svg" alt="image of crystal 1" class="img-responsive col-xs-1 col-md-1 crystal-title crystal-title-1">
+                    <img src="assets/images/crystal-r.svg" alt="image of crystal 2" class="img-responsive col-xs-1 col-md-1 crystal-title crystal-title-2">
+                    <img src="assets/images/crystal-y.svg" alt="image of crystal 3" class="img-responsive col-xs-1 col-md-1 crystal-title crystal-title-3">
+                    <img src="assets/images/crystal-g.svg" alt="image of crystal 4" class="img-responsive col-xs-1 col-md-1 crystal-title crystal-title-4">
+                    <img src="assets/images/crystal-b.svg" alt="image of crystal 1" class="img-responsive col-xs-1 col-md-1 crystal-title crystal-title-1">
+                    <img src="assets/images/crystal-r.svg" alt="image of crystal 2" class="img-responsive col-xs-1 col-md-1 crystal-title crystal-title-2">
+                    <img src="assets/images/crystal-y.svg" alt="image of crystal 3" class="img-responsive col-xs-1 col-md-1 crystal-title crystal-title-3">
+                    <img src="assets/images/crystal-g.svg" alt="image of crystal 4" class="img-responsive col-xs-1 col-md-1 crystal-title crystal-title-4">
+                </br>
+                </br>
                     <h1>Crystals Collector</h1>
                 </div>
             </div>
@@ -35,31 +49,34 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="panel panel-default">
+                        <div class="panel panel-style instruct">
                             <div class="panel-heading">
                                 <h2>Instructions</h2>
                             </div>
                             <div class="panel-body">
-                                <p>You will be given a random Target Number at the start of the game.</p>
-                                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to Your Number.</p>
-                                <p>You win the game by matching Your Number to the Target Number, you lose the game if Your Number goes above the Target Number.</p>
-                                <p>The value of each crystal is hidden from you until you click on it.</p>
-                                <p>Each time when the game starts, the game will change the values of each crystal.</p>
+                                <ul>
+                                    <li>You will be given a random Target Number at the start of the game.</li>
+                                    <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to Your Number.</li>
+                                    <li>You win the level by matching Your Number to the Target Number, you lose the level if Your Number goes above the Target Number.</li>
+                                    <li>The value of each crystal is hidden from you until you click on it.</li>
+                                    <li>Each time when the game starts, the game will change the values of each crystal.</li>
+                                    <li>Win 10 levels to win the game. Game Over after 10 losses.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>    
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="panel panel-default">
+                    <div class="col-md-6  col-sm-6 col-xs-6">
+                        <div class="panel panel-style">
                             <div class="panel-heading"><h2>Target Number</h2></div>
                             <div class="panel-body">
                                 <p class="target-num text-center"></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="panel panel-default">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="panel panel-style">
                             <div class="panel-heading"><h2>Your Number</h2></div>
                             <div class="panel-body">
                                 <p class="users-num text-center"></p>
@@ -69,11 +86,11 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 image-section text-center">
-                        <div class="panel panel-default">
+                        <div class="panel panel-style">
                             <div class="panel-body">
-                                <img src="assets/images/crystal-y.svg" alt="image of crystal 1" id="crystal-1" value="1" class="img-responsive col-xs-6 col-md-3 crystal">
-                                <img src="assets/images/crystal-b.svg" alt="image of crystal 2" id="crystal-2" value="2" class="img-responsive col-xs-6 col-md-3 crystal">
-                                <img src="assets/images/crystal-r.svg" alt="image of crystal 3" id="crystal-3" value="3" class="img-responsive col-xs-6 col-md-3 crystal">
+                                <img src="assets/images/crystal-b.svg" alt="image of crystal 1" id="crystal-1" value="1" class="img-responsive col-xs-6 col-md-3 crystal">
+                                <img src="assets/images/crystal-r.svg" alt="image of crystal 2" id="crystal-2" value="2" class="img-responsive col-xs-6 col-md-3 crystal">
+                                <img src="assets/images/crystal-y.svg" alt="image of crystal 3" id="crystal-3" value="3" class="img-responsive col-xs-6 col-md-3 crystal">
                                 <img src="assets/images/crystal-g.svg" alt="image of crystal 4" id="crystal-4" value="4" class="img-responsive col-xs-6 col-md-3 crystal">
                             </div>
                         </div>
@@ -81,9 +98,9 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <div class="col-md-6">
+                        <div class="panel">
+                            <div class="panel-body panel-style">
+                                <div class="col-md-6 win-group">
                                     <div class="col-md-6 text-center">
                                         <h3>Wins:</h3>
                                     </div>
@@ -91,7 +108,7 @@
                                         <h3 class="wins"></h3>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 loss-group">
                                     <div class="col-md-6 text-center">
                                         <h3>Losses:</h3>
                                     </div>
