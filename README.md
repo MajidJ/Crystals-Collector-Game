@@ -1,6 +1,9 @@
 # Crystal Collector
 This is a simple addition game using javascript and jQuery.
 
+## Demo
+Working Game: [https://taxlife.github.io/Crystals-Collector-Game/]
+
 ## Instructions
 1. Game is launched immediately from index.html. 
 2. You will be given a random Target Number at the start of the game.
@@ -12,4 +15,4 @@ This is a simple addition game using javascript and jQuery.
 
 
 ## Authors
-Majid Jamaleldine [https://github.com/Taxlife/week-4-game] Working Game: [https://taxlife.github.io/week-4-game/]
+Majid Jamaleldine [https://github.com/Taxlife/Crystals-Collector-Game] 
