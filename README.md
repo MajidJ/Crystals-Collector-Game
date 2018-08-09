@@ -2,7 +2,7 @@
 This is a simple addition game using javascript and jQuery.
 
 ## Demo
-Working Game: [https://taxlife.github.io/Crystals-Collector-Game/]
+Working Game: [https://MajidJ.github.io/Crystals-Collector-Game/]
 
 ## Instructions
 1. Game is launched immediately from index.html. 
@@ -15,4 +15,4 @@ Working Game: [https://taxlife.github.io/Crystals-Collector-Game/]
 
 
 ## Authors
-Majid Jamaleldine [https://github.com/Taxlife/Crystals-Collector-Game] 
+Majid Jamaleldine [https://github.com/MajidJ/Crystals-Collector-Game] 
